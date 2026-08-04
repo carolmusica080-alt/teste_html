@@ -2,8 +2,44 @@
 
 * {
     text-decoration:underline;
+    margin: 0;
+    pudding: 10px;
+
     
 }
 h1{
  font-family: "Montserrat", sans-serif;
+}
+
+#caixinha {
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#caixote {
+    background-color: coral;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+nav {
+    background-color: aquamarine;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+
+}
+#img-haerin {
+    opacity: 0.5;
+}
+
+#img-haerin:hover {
+    opacity: 1;
 }
